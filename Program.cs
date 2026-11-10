@@ -61,12 +61,16 @@
 //Console.WriteLine("Отсортированный массив:");
 //Console.WriteLine(string.Join(", ", numbers));
 
-int[] numbers = { 3, 1, 67, 99, 2, 4, 30 };
+//int[] numbers = { 3, 1, 67, 99, 2, 4, 30 };
 
-Console.WriteLine("До сортировки:");
-Console.WriteLine(string.Join(", ", numbers));
+//Console.WriteLine("До сортировки:");
+//Console.WriteLine(string.Join(", ", numbers));
 
-Array.Sort(numbers);
+//Array.Sort(numbers);
 
-Console.WriteLine("После сортировки:");
-Console.WriteLine(string.Join(", ", numbers));
+//Console.WriteLine("После сортировки:");
+//Console.WriteLine(string.Join(", ", numbers));
+
+int[] measurements = { 31, 14, 27, 8, 19, 42 };
+Array.Sort(measurements);
+Console.WriteLine(string.Join(",", measurements));
